@@ -29,60 +29,11 @@
       "source": { "source": "github", "repo": "iamtouchskyer/opc", "ref": "main" }
     },
     {
-      "name": "opc-extensions",
-      "description": "Extension skills and flow templates for OPC.",
-      "category": "orchestration",
-      "tags": ["orchestration", "opc"],
-      "source": { "source": "github", "repo": "iamtouchskyer/opc-extensions", "ref": "main" }
-    },
-    {
-      "name": "dreamworks",
-      "description": "Full AI product pipeline — ideafactory, pitch, publish, orchestrator.",
-      "category": "product",
-      "tags": ["product", "pitch", "pipeline"],
-      "source": { "source": "github", "repo": "iamtouchskyer/dreamworks-plugin", "ref": "main" }
-    },
-    {
-      "name": "repo-advisors",
-      "description": "Distilled architecture advisors for popular repos — installable as Claude Code skills.",
-      "category": "knowledge",
-      "tags": ["knowledge", "advisor", "architecture"],
-      "source": { "source": "github", "repo": "iamtouchskyer/repo-advisors", "ref": "main" }
-    },
-    {
-      "name": "ink-flow",
-      "description": "Full-lifecycle content operations — write, review, publish, distribute, monitor across channels.",
-      "category": "content",
-      "tags": ["content", "publishing", "distribution"],
-      "source": { "source": "github", "repo": "iamtouchskyer/ink-flow", "ref": "main" }
-    },
-    {
-      "name": "cli-x",
-      "description": "Universal external platform interface — post content, manage subscriptions, collect data. MCP > CLI/API > Playwright priority chain.",
-      "category": "integration",
-      "tags": ["integration", "automation", "platform"],
-      "source": { "source": "github", "repo": "iamtouchskyer/cli-x", "ref": "main" }
-    },
-    {
-      "name": "cli-x-builder",
-      "description": "Designer companion to cli-x — adds new platform adapters with auth strategies and anti-detection patterns.",
-      "category": "integration",
-      "tags": ["integration", "scaffolding"],
-      "source": { "source": "github", "repo": "iamtouchskyer/cli-x-builder", "ref": "main" }
-    },
-    {
       "name": "session-recap",
       "description": "Generate a visual session recap infographic — Apple dark-theme, stats + narrative + self-reflection.",
       "category": "content",
       "tags": ["content", "session", "infographic"],
       "source": { "source": "github", "repo": "iamtouchskyer/session-recap", "ref": "main" }
-    },
-    {
-      "name": "tooleval",
-      "description": "Evaluate MCP server quality with automated checks — validate implementations, debug issues, pre-publish gates.",
-      "category": "quality",
-      "tags": ["mcp", "quality", "testing"],
-      "source": { "source": "github", "repo": "iamtouchskyer/tooleval", "ref": "main" }
     }
   ]
 }

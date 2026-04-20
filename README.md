@@ -1,6 +1,6 @@
 # cc-plugins
 
-One marketplace, all of my Claude Code plugins.
+One marketplace, all of my **public** Claude Code plugins.
 
 **Add it once:**
 
@@ -19,14 +19,9 @@ Then browse and install anything from the catalog below with `/plugin install <n
 | [`memex`](https://github.com/iamtouchskyer/memex) | memory | Zettelkasten persistent memory for AI coding agents. Markdown + git sync, no vector DB. |
 | [`logex`](https://github.com/iamtouchskyer/logex) | content | Turn Claude Code session transcripts into blog-style articles — narrative, not logs. |
 | [`opc`](https://github.com/iamtouchskyer/opc) | orchestration | One Person Company — a full team in a single skill. Adaptive agent orchestrator. |
-| [`opc-extensions`](https://github.com/iamtouchskyer/opc-extensions) | orchestration | Extension skills and flow templates for OPC. |
-| [`dreamworks`](https://github.com/iamtouchskyer/dreamworks-plugin) | product | Full AI product pipeline — ideafactory, pitch, publish, orchestrator. |
-| [`repo-advisors`](https://github.com/iamtouchskyer/repo-advisors) | knowledge | Distilled architecture advisors for popular repos. |
-| [`ink-flow`](https://github.com/iamtouchskyer/ink-flow) | content | Full-lifecycle content operations — write, review, publish, distribute. |
-| [`cli-x`](https://github.com/iamtouchskyer/cli-x) | integration | Universal external platform interface. MCP > CLI/API > Playwright. |
-| [`cli-x-builder`](https://github.com/iamtouchskyer/cli-x-builder) | integration | Designer companion to cli-x — adds new platform adapters. |
-| [`session-recap`](https://github.com/iamtouchskyer/session-recap) | content | Generate a visual session recap infographic. |
-| [`tooleval`](https://github.com/iamtouchskyer/tooleval) | quality | Evaluate MCP server quality with automated checks. |
+| [`session-recap`](https://github.com/iamtouchskyer/session-recap) | content | Generate a visual session recap infographic — Apple dark-theme, stats + narrative + self-reflection. |
+
+More plugins exist in the ecosystem (`opc-extensions`, `dreamworks`, `repo-advisors`, `ink-flow`, `cli-x`, `cli-x-builder`, `tooleval`) but are still in private repos. They'll be added here as they go public.
 
 ---
 
@@ -49,7 +44,7 @@ That still works and stays supported for backward compatibility.
 
 ## Why a meta marketplace?
 
-- **One command on a new machine** instead of eleven.
+- **One command on a new machine** instead of N.
 - **One source of truth** when I ship a new plugin — add an entry here, done.
 - **Easier for others to discover** the whole collection instead of stumbling on plugins one at a time.
 
