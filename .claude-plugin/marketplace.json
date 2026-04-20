@@ -15,7 +15,7 @@
       "source": { "source": "github", "repo": "iamtouchskyer/memex", "ref": "main" }
     },
     {
-      "name": "cc-logex",
+      "name": "logex",
       "description": "Turn Claude Code session transcripts into blog-style articles — narrative, not logs.",
       "category": "content",
       "tags": ["content", "writing", "session"],
