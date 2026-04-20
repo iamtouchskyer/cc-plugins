@@ -1,0 +1,29 @@
+name: check-sources
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"  # Mondays 06:17 UTC
+  workflow_dispatch:
+
+jobs:
+  ls-remote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify each plugin source repo is reachable
+        run: |
+          set -e
+          fail=0
+          # Extract repo field from marketplace.json
+          repos=$(jq -r '.plugins[].source.repo' .claude-plugin/marketplace.json)
+          for repo in $repos; do
+            echo "Checking $repo ..."
+            if git ls-remote "https://github.com/${repo}.git" HEAD >/dev/null 2>&1; then
+              echo "  ✓ reachable"
+            else
+              echo "  ✗ UNREACHABLE"
+              fail=1
+            fi
+          done
+          exit $fail
